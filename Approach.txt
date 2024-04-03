@@ -1,0 +1,25 @@
+Data Extraction -->
+
+After importing the 'input.xlsx' file and creating its dataframe, 
+I created a function 'extract_text_from_url(websites)' which took a list of all the websites in the parameter and extracted the text
+present in the article of each website, using Beautiful Soup i did web scraping and got the text stored in a separate column in the 
+same dataframe.
+I declared the websites which gave 'error 404' as a null data and then removed the rows of all the null-valued data.
+Since the extracted text had some extra text towards the end,I altered the main article text and
+also made a list of titles of all the articles.
+Then after completely extracting the data I stored it in a file 'data1.csv' for further analysis
+
+That was pretty much brief ofwhat I did to extract the data from the websites, more details would be in the notebook file 
+
+Data Analysis -->
+
+After importing the 'data1.csv' file I started performing sentiment analysis as instructed in the 'Text Analysis' file
+I created a list of stopwords provided in the folder however I used only 2 files which are: 'StopWords_Generic.txt' and 'StopWords_GenericLong.txt' and also used the nltk library's stopwords for further cleaning of data.
+I created a function 'tranform text' where i used 'nltk.word_tokenize' to get all the words then perform cleaning on them, then stored them into the dataframe.
+Similarly I created functions to count negative and positive words.
+Using the 'nltk.word_tokenize' function on the cleaned data i got the count of total number of words for each article and stored them in the dataframe.
+For further understanding the data i used visualization techniques such as wordcloud and barplot.
+Then I created the function for counting syllables and similarly for counting complex words as instructed in the 'Text Analysis' file, I used regular expressions to separate out using vowels.
+Then i counted personal pronouns and number of characters present in the clean dataset and finally after storing the last column i.e 'AVERAGE WORD LENGTH' I created a new dataframe according to the 'OUTPUT DATA STRUCTURE.xlsx' file and stored the data after analysis into the file.
+
+Please refer to the notebook that I created for both the files for further clarification

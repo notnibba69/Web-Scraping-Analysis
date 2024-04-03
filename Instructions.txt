@@ -1,0 +1,24 @@
+INSUTRUCTIONS ON HOW TO RUN A .py FILE
+
+
+To run a Python (.py) file, you typically need to follow these steps:
+
+1. Install Python: Ensure you have Python installed on your system. You can download and install Python from the official website: Python Downloads. Make sure to select the appropriate version for your operating system.
+2. Open a Terminal or Command Prompt: Navigate to the directory where your Python file is located.
+3. Run the Python File: Type 'python filename.py' into the terminal or command prompt, where filename.py is the name of your Python script file. Press Enter.
+note : If you're using Python 3 and have Python 2 also installed, you might need to use 'python3' instead of 'python'
+
+Alternatively -->
+
+You can open and edit Python (.py) files in PyCharm. PyCharm is a popular integrated development environment (IDE) specifically designed for Python development, offering features like code highlighting, code completion, debugging, version control integration, and much more.
+
+Here's how you can open a .py file in PyCharm:
+
+1. Install PyCharm: If you haven't already installed PyCharm, you can download it from the official website: PyCharm Download. Choose the version that suits your needs (Community or Professional), download, and install it following the provided instructions.
+2. Open PyCharm: After installing PyCharm, launch the application.
+3. Open Your .py File: Once PyCharm is open, you can open your Python script file in one of the following ways:
+	Drag and drop the .py file into the PyCharm window.
+	Use the "File" menu and select "Open" to browse and open the .py file.
+	Use the keyboard shortcut 'Ctrl+O' (Cmd+O on macOS) to quickly open a file.
+4. Edit Your Python Script: After opening the .py file, you can edit it in the PyCharm editor. PyCharm provides various features to help you write and manage your Python code efficiently.
+5. Run Your Python Script: Once you've made changes to your Python script, you can run it directly within PyCharm. You can use the toolbar at the top of the window or the right-click context menu to run the script.
